@@ -1,15 +1,52 @@
+*, ::before, ::after{
+padding: 0;
+margin: 0;
+background-size: border-box;
+}
+h1{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px;
+    padding-top: inherit;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
 .encabezado{
     display: flex;
-    justify-content: space-between;
-background-color: #FAF7F0;
-padding: 30px;
+    justify-content:center;
+    background-color: #FAF7F0;
+    padding: 30px;
+    font-family: Monospace;
+    
 }
 .navegacion{
-background-color: #CDFCF6 ;
-padding: 30px;
-display: flex;
-    flex-direction: row;
+    background-color: #CDFCF6 ;
+    padding: 30px;
+    font-family: Monospace;
+    color: black;
+    display: block;
     justify-content: space-between;
+    position: relative;
+}
+nav ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    list-style: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 2.5em;
+    display: block;
+    transition: all .4s;
+}
+nav a:hover{
+    background-color: beige;
+
 }
 .contenedor{
     background-color: #BCCEF8;
@@ -29,11 +66,8 @@ display: flex;
 }
 .piepagina{
     background-color: #5DA7DB;
-    padding: 30px;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 10px;
+    font-family: Monospace;
+    font-size: 15px;
+    text-align: center;
 }
